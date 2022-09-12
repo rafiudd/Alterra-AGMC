@@ -37,9 +37,12 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{SWAGGER_MOCK_URL}}/sepulsa/RentABook-API/1.0.0/book",
+											"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book",
+											"protocol": "https",
 											"host": [
-												"{{SWAGGER_MOCK_URL}}"
+												"virtserver",
+												"swaggerhub",
+												"com"
 											],
 											"path": [
 												"sepulsa",
@@ -125,9 +128,12 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{SWAGGER_MOCK_URL}}/sepulsa/RentABook-API/1.0.0/book/1",
+											"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/1",
+											"protocol": "https",
 											"host": [
-												"{{SWAGGER_MOCK_URL}}"
+												"virtserver",
+												"swaggerhub",
+												"com"
 											],
 											"path": [
 												"sepulsa",
@@ -231,9 +237,12 @@
 											}
 										},
 										"url": {
-											"raw": "{{SWAGGER_MOCK_URL}}/sepulsa/RentABook-API/1.0.0/book",
+											"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book",
+											"protocol": "https",
 											"host": [
-												"{{SWAGGER_MOCK_URL}}"
+												"virtserver",
+												"swaggerhub",
+												"com"
 											],
 											"path": [
 												"sepulsa",
@@ -337,9 +346,12 @@
 											}
 										},
 										"url": {
-											"raw": "{{SWAGGER_MOCK_URL}}/sepulsa/RentABook-API/1.0.0/book/1",
+											"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/1",
+											"protocol": "https",
 											"host": [
-												"{{SWAGGER_MOCK_URL}}"
+												"virtserver",
+												"swaggerhub",
+												"com"
 											],
 											"path": [
 												"sepulsa",
@@ -444,9 +456,12 @@
 											}
 										},
 										"url": {
-											"raw": "{{SWAGGER_MOCK_URL}}/sepulsa/RentABook-API/1.0.0/book/1",
+											"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/1",
+											"protocol": "https",
 											"host": [
-												"{{SWAGGER_MOCK_URL}}"
+												"virtserver",
+												"swaggerhub",
+												"com"
 											],
 											"path": [
 												"sepulsa",
@@ -546,9 +561,12 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{BINANCE_API_URL}}/api/v1/klines?symbol=BTCUSDT&interval=1m",
+											"raw": "https://testnet.binance.vision/api/v1/klines?symbol=BTCUSDT&interval=1m",
+											"protocol": "https",
 											"host": [
-												"{{BINANCE_API_URL}}"
+												"testnet",
+												"binance",
+												"vision"
 											],
 											"path": [
 												"api",
@@ -683,7 +701,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{BINANCE_API_URL}}/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1661990400&limit=1000",
+									"raw": "{{BINANCE_API_URL}}/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1662045514000&endTime=1662563914000&limit=1000",
 									"host": [
 										"{{BINANCE_API_URL}}"
 									],
@@ -702,15 +720,14 @@
 											"value": "1d"
 										},
 										{
-											"key": "endTime",
-											"value": "1662595199",
-											"description": "Sunday, 7 September 2022 23.59",
-											"disabled": true
+											"key": "startTime",
+											"value": "1662045514000",
+											"description": "Thu Sep 01 2022 15:18:34 GMT+0000"
 										},
 										{
-											"key": "startTime",
-											"value": "1661990400",
-											"description": "Monday, 1 September 2022 00.00"
+											"key": "endTime",
+											"value": "1662563914000",
+											"description": "Wed Sep 07 2022 15:18:34 GMT+0000"
 										},
 										{
 											"key": "limit",
@@ -726,9 +743,12 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{BINANCE_API_URL}}/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1659312000&limit=1000",
+											"raw": "https://testnet.binance.vision/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1659312000&limit=1000",
+											"protocol": "https",
 											"host": [
-												"{{BINANCE_API_URL}}"
+												"testnet",
+												"binance",
+												"vision"
 											],
 											"path": [
 												"api",
@@ -1019,6 +1039,151 @@
 									],
 									"cookie": [],
 									"body": "[\n    [\n        1662508800000,\n        \"19107.80000000\",\n        \"50000.00000000\",\n        \"15668.40000000\",\n        \"19284.86000000\",\n        \"5892.50051000\",\n        1662595199999,\n        \"111900543.96863158\",\n        99487,\n        \"3814.98588700\",\n        \"72458500.50944591\",\n        \"0\"\n    ],\n    [\n        1662595200000,\n        \"19284.86000000\",\n        \"51515.51000000\",\n        \"10000.00000000\",\n        \"19318.60000000\",\n        \"9589.86613400\",\n        1662681599999,\n        \"184577414.34539109\",\n        164184,\n        \"6176.37829000\",\n        \"119046268.96659322\",\n        \"0\"\n    ],\n    [\n        1662681600000,\n        \"19319.16000000\",\n        \"50000.00000000\",\n        \"19292.36000000\",\n        \"21359.44000000\",\n        \"9717.73326700\",\n        1662767999999,\n        \"201541810.33605007\",\n        180115,\n        \"6374.39862600\",\n        \"132158089.00433518\",\n        \"0\"\n    ],\n    [\n        1662768000000,\n        \"21358.96000000\",\n        \"50011.00000000\",\n        \"20704.76000000\",\n        \"21647.46000000\",\n        \"7978.24451100\",\n        1662854399999,\n        \"170646351.15688002\",\n        158100,\n        \"5033.61231400\",\n        \"107681292.73798232\",\n        \"0\"\n    ],\n    [\n        1662854400000,\n        \"21647.41000000\",\n        \"22616.51000000\",\n        \"20442.08000000\",\n        \"21828.44000000\",\n        \"8079.44893600\",\n        1662940799999,\n        \"174535027.41524357\",\n        165518,\n        \"5132.06340100\",\n        \"110882249.82156384\",\n        \"0\"\n    ],\n    [\n        1662940800000,\n        \"21824.14000000\",\n        \"22621.94000000\",\n        \"21398.91000000\",\n        \"22365.89000000\",\n        \"5566.60415500\",\n        1663027199999,\n        \"122490650.81465378\",\n        123003,\n        \"3724.22179300\",\n        \"81962459.39179537\",\n        \"0\"\n    ]\n]"
+								},
+								{
+									"name": "Get Recent BTCUSDT With Start Time End Time",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{BINANCE_API_URL}}/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1662045514000&endTime=1662563914000&limit=1000",
+											"host": [
+												"{{BINANCE_API_URL}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"klines"
+											],
+											"query": [
+												{
+													"key": "symbol",
+													"value": "BTCUSDT"
+												},
+												{
+													"key": "interval",
+													"value": "1d"
+												},
+												{
+													"key": "startTime",
+													"value": "1662045514000",
+													"description": "Thu Sep 01 2022 15:18:34 GMT+0000"
+												},
+												{
+													"key": "endTime",
+													"value": "1662563914000",
+													"description": "Wed Sep 07 2022 15:18:34 GMT+0000"
+												},
+												{
+													"key": "limit",
+													"value": "1000"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json;charset=UTF-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "182"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 12 Sep 2022 16:20:18 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "nginx"
+										},
+										{
+											"key": "x-mbx-uuid",
+											"value": "0c800f25-49c7-4f5a-86c8-ac374143cd90"
+										},
+										{
+											"key": "x-mbx-used-weight",
+											"value": "1"
+										},
+										{
+											"key": "x-mbx-used-weight-1m",
+											"value": "1"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=31536000; includeSubdomains"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "X-Xss-Protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Content-Security-Policy",
+											"value": "default-src 'self'"
+										},
+										{
+											"key": "X-Content-Security-Policy",
+											"value": "default-src 'self'"
+										},
+										{
+											"key": "X-WebKit-CSP",
+											"value": "default-src 'self'"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, no-store, must-revalidate"
+										},
+										{
+											"key": "Pragma",
+											"value": "no-cache"
+										},
+										{
+											"key": "Expires",
+											"value": "0"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Access-Control-Allow-Methods",
+											"value": "GET, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Cache",
+											"value": "Miss from cloudfront"
+										},
+										{
+											"key": "Via",
+											"value": "1.1 bd136cb27ff3fea279aa501d6d5d05d4.cloudfront.net (CloudFront)"
+										},
+										{
+											"key": "X-Amz-Cf-Pop",
+											"value": "CGK50-P1"
+										},
+										{
+											"key": "X-Amz-Cf-Id",
+											"value": "lh9ArxP8ndVYmAiDroTmHK-u0ypX5mrD5xDPlHT5xdi-tHtDIYJhEQ=="
+										}
+									],
+									"cookie": [],
+									"body": "[\n    [\n        1662508800000,\n        \"19107.80000000\",\n        \"50000.00000000\",\n        \"15668.40000000\",\n        \"19284.86000000\",\n        \"5892.50051000\",\n        1662595199999,\n        \"111900543.96863158\",\n        99487,\n        \"3814.98588700\",\n        \"72458500.50944591\",\n        \"0\"\n    ]\n]"
 								}
 							]
 						},
@@ -1123,14 +1288,17 @@
 										"header": [
 											{
 												"key": "X-MBX-APIKEY",
-												"value": "{{BINANCE_API_KEY}}",
+												"value": "7Ly1uR67eDsM7MHsXEKmezHu31W7A8DUbc7TSclHI99vmS8dwihsrnqZNYQ9WIe9",
 												"type": "text"
 											}
 										],
 										"url": {
-											"raw": "{{BINANCE_API_URL}}/api/v3/account?signature={{signature}}&timestamp={{timestamp}}",
+											"raw": "https://testnet.binance.vision/api/v3/account?signature= &timestamp=",
+											"protocol": "https",
 											"host": [
-												"{{BINANCE_API_URL}}"
+												"testnet",
+												"binance",
+												"vision"
 											],
 											"path": [
 												"api",
@@ -1140,11 +1308,11 @@
 											"query": [
 												{
 													"key": "signature",
-													"value": "{{signature}}"
+													"value": " "
 												},
 												{
 													"key": "timestamp",
-													"value": "{{timestamp}}"
+													"value": ""
 												}
 											]
 										}
