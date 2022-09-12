@@ -14,3 +14,4 @@ Do request to the following API target by using Postman environment, save the re
 
 Note Task:
 Now Postman can create variable in collection, so import environment variable is not needed
+![Screenshoot](https://raw.github.com/rafiudd/Golang-Mini-Course-Alterra/master/DAY-1/collection_variables.png)
