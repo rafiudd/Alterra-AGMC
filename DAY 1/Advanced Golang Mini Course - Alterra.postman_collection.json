@@ -296,7 +296,7 @@
 						{
 							"name": "Update Book",
 							"request": {
-								"method": "POST",
+								"method": "PUT",
 								"header": [],
 								"body": {
 									"mode": "raw",
@@ -308,7 +308,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{SWAGGER_MOCK_URL}}/sepulsa/RentABook-API/1.0.0/book",
+									"raw": "{{SWAGGER_MOCK_URL}}/sepulsa/RentABook-API/1.0.0/book/1",
 									"host": [
 										"{{SWAGGER_MOCK_URL}}"
 									],
@@ -316,7 +316,8 @@
 										"sepulsa",
 										"RentABook-API",
 										"1.0.0",
-										"book"
+										"book",
+										"1"
 									]
 								}
 							},
@@ -682,7 +683,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{BINANCE_API_URL}}/api/v1/klines?symbol=BTCUSDT&interval=1d&endTime=1662595199&startTime=1661990400&limit=1000",
+									"raw": "{{BINANCE_API_URL}}/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1661990400&limit=1000",
 									"host": [
 										"{{BINANCE_API_URL}}"
 									],
@@ -703,7 +704,8 @@
 										{
 											"key": "endTime",
 											"value": "1662595199",
-											"description": "Sunday, 7 September 2022 23.59"
+											"description": "Sunday, 7 September 2022 23.59",
+											"disabled": true
 										},
 										{
 											"key": "startTime",
